@@ -1,6 +1,6 @@
 package praxefx;
 
-import DBase2.FirmsDataAccessor;
+import DBase.FirmsDataAccessor;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.SQLException;
@@ -17,7 +17,6 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import praxe.Firms;
-import praxe.User;
 import praxe.ValidMail;
     
 public class FXMLFirmaVstupController implements Initializable {

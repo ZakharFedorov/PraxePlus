@@ -1,7 +1,7 @@
 package praxefx;
 
 import praxe.User;
-import DBase2.UserDataAccessor;
+import DBase.UserDataAccessor;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.SQLException;

@@ -5,8 +5,8 @@
  */
 package praxefx;
 
-import DBase2.PracticeDataAccessor;
-import DBase2.UserDataAccessor;
+import DBase.PracticeDataAccessor;
+import DBase.UserDataAccessor;
 import java.net.URL;
 import java.sql.SQLException;
 import java.util.ResourceBundle;

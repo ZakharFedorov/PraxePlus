@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package DBase2;
+package DBase;
 
 import praxe.User;
 import java.sql.Connection;

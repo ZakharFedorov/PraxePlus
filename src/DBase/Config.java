@@ -1,4 +1,4 @@
-package DBase2;
+package DBase;
 
 public class Config {
     public final static String serverName = "147.230.21.34";

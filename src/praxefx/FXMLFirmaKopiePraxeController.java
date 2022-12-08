@@ -5,8 +5,8 @@
  */
 package praxefx;
 
-import DBase2.KeyWordsDataAccessor;
-import DBase2.PracticeDataAccessor;
+import DBase.KeyWordsDataAccessor;
+import DBase.PracticeDataAccessor;
 import java.net.URL;
 import java.sql.SQLException;
 import java.time.Year;
@@ -22,7 +22,6 @@ import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import praxe.Firms;
 import praxe.KeyWords;
 import praxe.Practice;
 import praxe.ValidMail;

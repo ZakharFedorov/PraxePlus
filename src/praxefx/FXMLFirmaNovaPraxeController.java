@@ -5,33 +5,22 @@
  */
 package praxefx;
 
-import DBase2.KeyWordsDataAccessor;
-import DBase2.PracticeDataAccessor;
-import java.io.IOException;
+import DBase.KeyWordsDataAccessor;
+import DBase.PracticeDataAccessor;
 import java.net.URL;
 import java.sql.SQLException;
 import java.time.Year;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckMenuItem;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.ComboBox;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
-import javafx.scene.control.MenuButton;
-import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.stage.Stage;
 import praxe.Firms;
 import praxe.KeyWords;
 import praxe.Practice;
