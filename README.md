@@ -56,3 +56,19 @@ public class AbstractDataAccessor {
     }
 }
 ```
+## Přiklád SQL Injection
+```
+public Rate saveP(User s) throws SQLException {
+        try(Connection connection = dataSource.getConnection()){
+            String sql = "INSERT INTO Hodnoceni (tema, rok, splneni, kvalita, spokojenost_s_pristupem, slovni_hodnoceni) VALUES (?,?,?,?,?,?)";
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1,s.getTema());
+            preparedStatement.setInt(2,s.getRok());
+            preparedStatement.setString(3,s.getSpleni());
+            preparedStatement.setString(4,s.getKvalita());
+            preparedStatement.setString(5,s.getSpokojenost_s_pristupem());
+            preparedStatement.setString(6,s.getSlovni_hodnoceni());
+            preparedStatement.executeUpdate();
+    }
+}
+```
