@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="praxefx.FXMLFirmaRegistraceController">
+ <children>
+      <AnchorPane layoutY="70.0" prefHeight="329.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button fx:id="buttonRegistraceFirma" ellipsisString="" layoutX="258.0" layoutY="272.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="184.0" style="-fx-background-color: #8BB1C4;" text="Zaregistrovat se" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light Italic" size="23.0" />
+               </font>
+            </Button>
+            <TextField fx:id="nazevFirmyRegistraceFirma" layoutX="35.0" layoutY="86.0" prefHeight="39.0" prefWidth="133.0" promptText="Název Firmy" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="jmenoRegistraceFirma" layoutX="266.0" layoutY="86.0" prefHeight="39.0" prefWidth="133.0" promptText="Jméno" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="mestoRegistraceFirma" layoutX="552.0" layoutY="86.0" prefHeight="39.0" prefWidth="133.0" promptText="Město" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="prijmeniRegistraceFirma" layoutX="409.0" layoutY="86.0" prefHeight="39.0" prefWidth="133.0" promptText="Příjmení" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="emailRegistraceFirma" layoutX="495.0" layoutY="155.0" prefHeight="39.0" prefWidth="133.0" promptText="e-mail" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="hesloRegistraceFirma" layoutX="324.0" layoutY="155.0" prefHeight="39.0" prefWidth="150.0" promptText="Heslo" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="339.0" layoutY="21.0" prefHeight="44.0" prefWidth="269.0" text="Kontaktní Osoba" textFill="#2e3348">
+               <font>
+                  <Font name="Calibri Light Italic" size="38.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="21.0" text="Firma" textFill="#2e3348">
+               <font>
+                  <Font name="Calibri Light Italic" size="38.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="chekboxPobockaRegistraceFirma" layoutX="41.0" layoutY="215.0" mnemonicParsing="false" text="Máte pobočku ?" />
+            <TextField fx:id="pobockaRegistraceFirma" cache="true" disable="true" layoutX="35.0" layoutY="155.0" prefHeight="39.0" prefWidth="133.0" promptText="Pobočka" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <Button fx:id="buttonZpetRegistraceFirma" ellipsisString="" layoutX="35.0" layoutY="277.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="98.0" style="-fx-background-color: #8B2100;" text="Zpet" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light Italic" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="194.0" layoutY="6.0" prefHeight="55.0" prefWidth="312.0" text="Firma Registrace" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light Italic" size="46.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

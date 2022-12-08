@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="praxefx.FXMLFirmaHodnoceniPraxeController">
+<children>
+        <AnchorPane layoutY="70.0" prefHeight="532.0" prefWidth="900.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <ChoiceBox fx:id="ChoiceBoxKvalitaHodnoceni" layoutX="377.0" layoutY="148.0" prefWidth="150.0" style="-fx-background-color: silver;" />
+            <Label layoutX="264.0" layoutY="14.0" prefHeight="54.0" prefWidth="375.0" text="Praxe splněna v požadovaném rozsahu?" textAlignment="CENTER" textFill="#2e3348">
+               <font>
+                  <Font name="Calibri Light Italic" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="264.0" layoutY="94.0" prefHeight="54.0" prefWidth="375.0" text="Práce odvedena v požadované kvalitě?" textAlignment="CENTER" textFill="#2e3348">
+               <font>
+                  <Font name="Calibri Light Italic" size="23.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="ChoiceBoxSplneniHodnoceni" layoutX="377.0" layoutY="68.0" prefWidth="150.0" style="-fx-background-color: silver;" />
+            <Label layoutX="303.0" layoutY="174.0" prefHeight="54.0" prefWidth="298.0" text="Spokojeni s přístupem studenta?" textAlignment="CENTER" textFill="#2e3348">
+               <font>
+                  <Font name="Calibri Light Italic" size="23.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="ChoiceBoxSpokojenostHodnoceni" layoutX="376.0" layoutY="228.0" prefWidth="150.0" style="-fx-background-color: silver;" />
+            <TextArea fx:id="TextAreaHodnoceni" layoutX="40.0" layoutY="289.0" prefHeight="200.0" prefWidth="636.0" promptText="Slovní hodnocení">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="ButtonPotvrditHodnoceni" layoutX="739.0" layoutY="365.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="121.0" style="-fx-background-color: #8BB1C4;" text="Potvrdit" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light Italic" size="23.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+        <Label layoutX="293.0" layoutY="14.0" prefHeight="54.0" prefWidth="314.0" text="Hodnocení Praxe" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Calibri Light Italic" size="46.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

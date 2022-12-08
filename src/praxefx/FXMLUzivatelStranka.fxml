@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="praxefx.FXMLUzivatelStrankaController">
+   
+<children>
+        <AnchorPane layoutX="-1.0" layoutY="78.0" prefHeight="328.0" prefWidth="702.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button fx:id="ButtonVsechnyPraxeStrankaUzivatel" layoutX="259.0" layoutY="58.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="182.0" style="-fx-background-color: #8BB1C4;" text="Všechny Praxe">
+               <font>
+                  <Font name="Calibri Light Italic" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="ButtonOdhlasitSeStrankaUzivatel" layoutX="563.0" layoutY="274.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="114.0" style="-fx-background-color: #8B2100;" text="Odhlásit se" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light Italic" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="ButtonMojePraxeStrankaUzivatel" layoutX="260.0" layoutY="164.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="181.0" style="-fx-background-color: #8BB1C4;" text="Moje praxe">
+               <font>
+                  <Font name="Calibri Light Italic" size="23.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+        <Label layoutX="237.0" layoutY="14.0" prefHeight="54.0" prefWidth="228.0" text="Hello, User" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Calibri Light Italic" size="46.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="praxefx.FXMLUzivatelVstupController">
+    <children>
+      <AnchorPane layoutY="70.0" prefHeight="329.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <TextField fx:id="loginAutorizace" layoutX="161.0" layoutY="105.0" prefHeight="26.0" prefWidth="377.0" promptText="E-mail" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="passwordAutorizace" layoutX="161.0" layoutY="165.0" prefHeight="38.0" prefWidth="378.0" promptText="Password" style="-fx-background-color: #fafafa; -fx-border-color: silver; -fx-border-radius: 5;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="262.0" layoutY="26.0" prefHeight="55.0" prefWidth="175.0" text="Autorizace" textFill="#2e3348">
+               <font>
+                  <Font name="Calibri Light" size="40.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonAutorizace" ellipsisString="" layoutX="287.0" layoutY="258.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: #8BB1C4;" text="Vstoupit" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light Italic" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonAutorizaceFirma" ellipsisString="" layoutX="14.0" layoutY="266.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="70.0" style="-fx-background-color: #8BB1C4;" text="Firma" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonAutorizaceAdmin" ellipsisString="" layoutX="97.0" layoutY="266.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="70.0" style="-fx-background-color: #8BB1C4;" text="Admin" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Light Italic" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="241.0" layoutY="14.0" prefHeight="55.0" prefWidth="217.0" text="Hello User!" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonRegistraceAutorizace" ellipsisString="" layoutX="551.0" layoutY="21.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: #8BB1C4;" text="Registrace" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Light Italic" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
