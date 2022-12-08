@@ -23,6 +23,11 @@ import javafx.stage.Stage;
 import praxe.Firms;
 import praxe.Practice;
 
+/**
+ * FXML Controller class
+ *
+ * @author Zakhar Fedorov
+ */
 public class FXMLFirmaVyhledatPraxeController implements Initializable{
 
     @FXML

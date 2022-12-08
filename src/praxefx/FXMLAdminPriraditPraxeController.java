@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package praxefx;
 
 import DBase.PracticeDataAccessor;
@@ -27,7 +22,7 @@ import praxe.User;
 /**
  * FXML Controller class
  *
- * @author Пользователь
+ * @author Zakhar Fedorov
  */
 public class FXMLAdminPriraditPraxeController implements Initializable {
 

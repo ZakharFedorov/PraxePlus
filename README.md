@@ -38,3 +38,21 @@ public class Config {
     public final static String username = "student";
     public final static String password = "student";
 }
+```
+```
+package DBase;
+import com.microsoft.sqlserver.jdbc.SQLServerDataSource;
+
+public class AbstractDataAccessor {
+
+    protected SQLServerDataSource dataSource;
+    
+    public AbstractDataAccessor() {
+        dataSource = new SQLServerDataSource();
+        dataSource.setServerName(Config.serverName);
+        dataSource.setDatabaseName(Config.databaseName);
+        dataSource.setUser(Config.username);
+        dataSource.setPassword(Config.password);        
+    }
+}
+```

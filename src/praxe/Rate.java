@@ -1,6 +1,9 @@
-
 package praxe;
 
+/**
+ *
+ * @author Zakhar Fedorov
+ */
 public class Rate {
     private String tema;
     private int rok;

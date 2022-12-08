@@ -18,6 +18,11 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import praxe.Practice;
 import praxe.User;
 
+/**
+ * FXML Controller class
+ *
+ * @author Zakhar Fedorov
+ */
 public class FXMLUzivatelMojePraxeController implements Initializable {
     @FXML
     private Button ButtonSpatky;

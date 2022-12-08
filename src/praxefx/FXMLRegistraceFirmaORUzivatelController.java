@@ -17,7 +17,7 @@ import javafx.scene.input.MouseEvent;
 /**
  * FXML Controller class
  *
- * @author Пользователь
+ * @author Zakhar Fedorov
  */
 public class FXMLRegistraceFirmaORUzivatelController implements Initializable {
 

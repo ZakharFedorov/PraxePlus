@@ -18,7 +18,12 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import praxe.Firms;
 import praxe.ValidMail;
-    
+
+/**
+ * FXML Controller class
+ *
+ * @author Zakhar Fedorov
+ */
 public class FXMLFirmaVstupController implements Initializable {
 
     @FXML

@@ -23,7 +23,7 @@ import praxe.ValidMail;
 /**
  * FXML Controller class
  *
- * @author Пользователь
+ * @author Zakhar Fedorov
  */
 public class FXMLFirmaRegistraceController implements Initializable {
 
